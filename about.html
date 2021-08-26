@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/85fd56d3db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hotel BT | About</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar" >
+            <div class="container">
+                
+                <h1 class="logo"><a href="index.html"> HBT</a></h1>
+                <ul>
+                    <li><a  href="index.html">Home</a></li>
+                    <li><a class="current" href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div> 
+
+        </nav>
+        
+    </header>
+
+   <section id="about-info" class="bg-light py3">
+       <div class="container">
+           <div class="info-left">
+               <h1 class="l-heading"><span class="primary-text"> About </span>Hotel BT</h1>
+           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi doloribus eligendi neque. A commodi odio iste atque, doloribus nesciunt molestias, excepturi perspiciatis eaque ullam quas officia pariatur debitis porro labore?</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis reiciendis sapiente iusto nobis omnis nam eligendi odio deserunt eius culpa.</p>
+            </div>
+           <div class="info-right">
+               <img src="./img/photo-2.jpg" alt="hotel">
+           </div>
+       </div>
+   </section>
+   <div class="clr"></div>
+
+   <section id="testimonials" class="py3">
+       <div class="container">
+           <h2 class="l-heading">What Our Guests Say</h2>
+           <div class="testimonial bg-primary">
+               <img src="./img/person-1.jpg" alt="sara">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In eos id eius reiciendis, illum, magni officiis officia aliquam sit, doloremque cum enim quae debitis. Atque, hic officiis deserunt fugiat sequi voluptatibus voluptas placeat ratione eligendi fugit quam inventore optio quisquam.</p>
+            </div>
+            <div class="testimonial bg-primary">
+                <img src="./img/person-2.jpg" alt="julie">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In eos id eius reiciendis, illum, magni officiis officia aliquam sit, doloremque cum enim quae debitis. Atque, hic officiis deserunt fugiat sequi voluptatibus voluptas placeat ratione eligendi fugit quam inventore optio quisquam.</p>
+             </div>
+       </div>
+   </section>
+    <footer id="main-footer">
+        <p>Hotel BT &copy; 2021, All Rights Reserved</p>
+    </footer>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* main styling */
+
+html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em; 
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+p{
+    padding: 10px 0;
+}
+
+/* Utilities */
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: auto;
+}
+
+.primary-text{
+    color: #f7c08a;
+}
+.lead{
+font-size: 18px;
+}
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+}
+.btn-light{
+    color: #333;
+    background: #fff;
+}
+.btn:hover{
+    color: #333;
+    background: #f7c08a;
+
+}
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+.bg-light{
+    background: #fff;
+    color: #333;
+}
+.bg-primary{
+    color: #333;
+    background: #f7c08a;
+}
+.l-heading{
+    font-size: 40px
+}
+/* Padding */
+
+.py1{padding: 10px 0;}
+.py2{padding: 20px 0;}
+.py3{padding: 30px 0;}
+
+.clr{
+    clear: both;
+}
+/* Navbar */
+
+#navbar{
+background-color: #333;
+color: white;
+overflow: auto;
+
+}
+#navbar a{
+    color: white;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar ul li{
+    float: left;
+    
+}
+#navbar ul li a{
+    display: block;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover , #navbar ul li a.current{
+    color: #f7c08a;
+    background-color: #444;
+}
+/* Showcase */
+
+#showcase {
+    background: url(../img/showcase.jpg) no-repeat center center/cover;
+    height: 600px;
+
+}
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content p{
+    padding-bottom: 30px;
+    line-height: 1.5em;
+
+}
+/* Home Info */
+
+#home-info{
+    height: 400px;
+}
+
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url(../img/photo-1.jpg) no-repeat;
+    min-height: 100%;
+
+}
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+#home-info .info-content p{
+    padding-bottom: 50px;
+}
+/* Features */
+.box{
+    float: left;
+    padding: 50px;
+    width: 33.3%;
+    text-align: center;
+}
+.box i{
+    margin-bottom: 10px;
+}
+
+/* About */
+
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+#about-info .info-right img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+#about-info .info-left{
+    width: 50%;
+    float: left;
+    min-height: 100%;
+}
+/* Testimonials */
+
+#testimonials{
+    height: 600px;
+    background: url(../img/test-bg.jpg) no-repeat center center/cover;
+    padding-top: 100px;
+
+}
+#testimonials h2{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#testimonials .testimonial{
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+#testimonials .testimonial img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input, #contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+
+}
+#contact-form textarea{
+    height: 200px;
+}
+#contact-form input:focus, #contact-form textarea:focus{
+    outline: none;
+    border-color: #f7c08a;
+}
+
+/* Footer */
+
+#main-footer{
+    text-align: center;
+    padding: 1px;
+    background: #444;
+    color: #fff;
+}
+    </style>
+</body>
+</html>
